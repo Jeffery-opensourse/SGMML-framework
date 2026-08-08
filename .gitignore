@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Model artifacts
+output/model/
+*.pkl
+*.safetensors
+*.pt
+*.npz
+
+# Secrets (never commit)
+.env.local
+secrets/
+*.key
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Autosave
+*.log

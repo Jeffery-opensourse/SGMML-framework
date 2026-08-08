@@ -1,0 +1,13 @@
+torch>=2.0
+transformers>=4.35
+peft>=0.7
+modelscope>=1.15
+scikit-learn>=1.2
+xgboost>=1.7
+pandas>=1.5
+numpy>=1.24
+joblib>=1.2
+matplotlib>=3.6
+shap>=0.42
+openai>=1.0
+httpx>=0.24

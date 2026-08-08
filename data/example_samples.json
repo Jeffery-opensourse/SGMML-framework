@@ -1,0 +1,52 @@
+[
+  {
+    "sample_id": "sample_1",
+    "sample_name": "Ma 2021 C/SiC-C-SiC (Z-direction)",
+    "ML_input": {
+      "fiber_type_code": 3,
+      "preform_structure_code": 6,
+      "manufacturing_process_code": 1,
+      "defect_code": 6,
+      "fiber_volume": null,
+      "sic_volume_fraction": null,
+      "density_gcm3": null,
+      "porosity_percent": null,
+      "coating_thickness": 0.0,
+      "treatment_temp_c": 1600.0
+    },
+    "LLM_text_input": {
+      "fiber_type": "PAN-based carbon fibers (T300, 12K, Toray, Japan)",
+      "preform_structure": "3D needle-punched carbon preform: 0 deg non-woven fiber cloths, 90 deg non-woven fiber cloths and short-cut fiber web layers overlapped by turns and needled to construct fiber felts",
+      "manufacturing_process": "PIP (PSO precursor pyrolysis at 1400 C) + CVI (PyC, 900-1200 C) + LSI (1500-1700 C)",
+      "defect_description": "macro pores around the needle-punched fiber bundles are not completely filled with molten Si; the generated SiC is not dense and contains micro pores in the interior of SiC"
+    },
+    "target": {
+      "flexural_strength_MPa": 212.0
+    }
+  },
+  {
+    "sample_id": "sample_2",
+    "sample_name": "Ma 2021 C/SiC-C-SiC (X-direction)",
+    "ML_input": {
+      "fiber_type_code": 3,
+      "preform_structure_code": 6,
+      "manufacturing_process_code": 1,
+      "defect_code": 6,
+      "fiber_volume": null,
+      "sic_volume_fraction": null,
+      "density_gcm3": null,
+      "porosity_percent": null,
+      "coating_thickness": 0.0,
+      "treatment_temp_c": 1600.0
+    },
+    "LLM_text_input": {
+      "fiber_type": "PAN-based carbon fibers (T300, 12K, Toray, Japan)",
+      "preform_structure": "3D needle-punched carbon preform: 0 deg non-woven fiber cloths, 90 deg non-woven fiber cloths and short-cut fiber web layers overlapped by turns and needled to construct fiber felts",
+      "manufacturing_process": "PIP (PSO precursor pyrolysis at 1400 C) + CVI (PyC, 900-1200 C) + LSI (1500-1700 C)",
+      "defect_description": "macro pores around the needle-punched fiber bundles are not completely filled with molten Si; the generated SiC is not dense and contains micro pores in the interior of SiC"
+    },
+    "target": {
+      "flexural_strength_MPa": 205.0
+    }
+  }
+]
